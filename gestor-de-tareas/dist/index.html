@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - GESTOR DE TAREAS</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav id="navbar-variable" class="navbar bg-success">
+        <div class="container-fluid">
+                <a class="navbar-brand" href="index.php">
+                    <img class="logo-cambio" src="https://johnmonor.com/imagenes/logofinal.png" width="130" alt="">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Link 2</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</nav>
+<div class="container">  
+          <p class="text-success my-2 display-6">Tabla de tareas</p>
+        <!-- Modal -->
+        <button id="openModal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#nuestro" >Agregar Tarea</button>
+
+        <div class="modal fade" id="nuestro" tabindex="-1" aria-labelledby="nuestroLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title fs-5" id="nuestroLabel">Agregar tarea</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">          <form>
+                                <label for="taskInput" class="form-label">Ingresar tarea</label>
+                                <input class="form-control" type="text" id="taskInput" placeholder="Escribe tu tarea" required>
+                                <button class="btn btn-success mt-2" id="addTask">Agregar</button>
+                            </form> 
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-3">
+            
+            </div>                
+        </div>
+        <div class="row">
+            <div class="col-3">            
+            <div id="tarea" class="column">
+                <p class="titulo">Tarea</p>
+                <div class="task" draggable="true">Crear un div con ciertas propiedades</div>
+                <div class="task" draggable="true">Desarrollar el logo</div>
+               
+            </div>
+            </div>
+            <div class="col-3">      
+            <div id="progreso" class="column">
+                <p class="titulo">Progreso</p>
+                <div class="task" draggable="true">Crear los estilos del footer</div>
+            </div>
+            </div>
+            <div class="col-3">   
+            <div id="bloqueo" class="column">
+                <p class="titulo">Bloqueo</p>
+                <div class="task" draggable="true">Falta definir tamaños</div>
+            </div>
+            </div>
+            <div class="col-3">      
+            <div id="terminado" class="column">
+                <p class="titulo">Terminado</p>
+            </div>
+            </div>
+        </div>            
+        </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <p class="text-success p-4 display-6">
+    Siguenos para más video tutoriales <a href="https://johnmonor.com" target="_blank">Link</a>
+  </p>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.2/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

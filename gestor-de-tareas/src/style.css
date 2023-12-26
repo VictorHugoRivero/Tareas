@@ -1,0 +1,56 @@
+p{
+    padding: 0;
+    margin: 0;
+}
+.col-3{
+    padding: 0 3px;
+}
+.column, .task{
+    border-radius: 5px;
+}
+
+.column {    
+    border: 1px solid #ccc;
+    min-height: 300px;
+}
+.titulo{
+    background-color: #0d6efd;
+    color:white;
+}
+.column .titulo{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.task{
+    font-size: 12px;
+    border: 1px solid cornflowerblue;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;    
+}
+.task:hover{
+    opacity: 1;
+}
+.draggable {
+    padding: 5px;
+    background: #f3f3f3;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+#progreso > .task{
+    background-color: rgb(86, 164, 242);
+    color: white;
+    border: none;
+}
+#bloqueo > .task{
+    background-color: rgb(236, 77, 77);
+    color: white;
+    border: none;
+}
+#terminado > .task{
+    background-color: rgb(136, 240, 150);
+    border: none;
+}
+
+
